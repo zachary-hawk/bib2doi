@@ -3,7 +3,7 @@ from setuptools import setup,Extension
 
 setup(name="bib2doi",
       version="1.0.0",
-      packages=find_packages('src'),
+      packages=find_packages(),
       description="Package for finding DOI for bibtex bibliography",
       url="https://github.com/zachary-hawk/bib2doi.git",
       author="Zachary Hawkhead",
