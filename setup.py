@@ -15,7 +15,7 @@ setup(name="bib2doi",
                         "argparse",
                         "habanero"],
 
-      entry_points={"console_scripts":["bib2doi=source.main:main_bib",]
+      entry_points={"console_scripts":["bib2doi=main:main_bib",]
                     }
 
       )
