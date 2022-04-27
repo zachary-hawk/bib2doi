@@ -4,7 +4,7 @@ from setuptools import setup,Extension
 setup(name="bib2doi",
       version="1.0.0",
       packages=find_packages(),
-      description="Package for findind DOI for bibtex bibliography",
+      description="Package for finding DOI for bibtex bibliography",
       url="https://github.com/zachary-hawk/bib2doi.git",
       author="Zachary Hawkhead",
       author_email="zachary.hawkhead@ymail.com",
@@ -15,7 +15,7 @@ setup(name="bib2doi",
                         "argparse",
                         "habanero"],
 
-      entry_points={"console_scripts":["bib2doi=src.main:main_bib",]
+      entry_points={"console_scripts":["bib2doi=src.mainbib:main_bib",]
                     }
 
       )
